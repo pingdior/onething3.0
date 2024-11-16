@@ -1,0 +1,32 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.user {
+  flex-direction: row-reverse;
+}
+
+.chat-input {
+  padding: 10px;
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input .ant-input {
+  flex: 1;
+} 
