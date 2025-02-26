@@ -90,7 +90,7 @@ docker-compose down
 
 
 ## 📁 项目结构
-
+```markdown
 project-root/
 ├── frontend/ # React前端项目
 │ ├── src/
@@ -110,7 +110,7 @@ project-root/
 ├── nginx/ # Nginx配置
 │ └── nginx.conf
 └── docker-compose.yml # Docker编排
-
+```
 
 ## 🔌 API 文档
 
@@ -188,6 +188,6 @@ project-root/
 
 ## 📞 联系方式
 
-- 项目链接: [https://github.com/yourusername/ai-chat-assistant](https://github.com/pingdior/ai-chat-assistant)
-- 博客: [your-blog.com](https://onething.work)
+- 项目链接: https://github.com/pingdior/ai-chat-assistant
+- 体验: https://onething.work
 - 邮箱: woodgaya@gmail.com
